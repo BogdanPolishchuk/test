@@ -1,0 +1,36 @@
+=====================================
+User guide for Git
+=====================================
+
+1) Instal Git as usual
+
+2) Check Git by:
+    - git --version
+
+3) To initialize Git in project folder:
+    // move to folder and:
+    - git init
+    // appired hiden folder $ .git
+
+4) To configure git, add next:
+    - git config --global user.name "BogdanPolishchuk"
+    - git config --global user.email bogdan.polish@gmail.com
+
+    // to check it: $ git config --list
+
+5) Add files to repo:
+    - git add .
+
+6) Create first coomit:
+
+    - git commit -m "first commit"
+
+7) Add remote repo:
+
+    - git remote add origin https://github.com/BogdanPolishchuk/git-help.git
+
+8) To send files to repo:
+
+    - git push -u origin master
+
+
