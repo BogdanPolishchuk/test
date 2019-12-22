@@ -41,6 +41,77 @@ User guide for Git
 
 10) If files is modified, use:
     - git status
+    // modification is red letter
+    // repeat: git add . 
+    // and check: git status
+    // modification is green letter
+    // create new commit:
+    // git commit -m "second commit"
+    // if check status again, we will see 1 new commit without modified files
+    // next : git push
+
+11) To cansel modifications in files or one before using command "git add":
+    - git checkout . - for all files or 
+    - git checkout modified_file.txt - point to exact file
+
+12) If modified files added by git add":
+    - git reset mod_file.txt - its canseling command "add" and use previouse "checkout"
+
+13) If files is added and was created new commit:
+     - git reset --hard HEAD^1 - its return on 1 commit before and remove all modification in files
+
+14) The same as 13) but without removing modification in local files:
+     - git reset --soft HEAD^1 - its return on 1 commit before but no remove all modification in files
+
+15) To loking after modification:
+    - git log - its width info
+    - git log --oneline --graph --decorate --all // just one stint of event
+
+16) Usefull trick to use aliase for command that make less, in folder .git -> config -> add paragraph:
+ 
+[alias]
+	s = status
+    l = log --oneline --graph --decorate --all
+
+
+17) To check branch:
+    - git branch:
+    //* master
+    // "git branch -v" shows last commit in the branch
+
+18) To create new branch:
+    - git branch develop
+    // if check if by "git branch":
+    //  develop
+    //* master
+
+19) To switch to other branch:
+    - git checkout develop
+    //Switched to branch 'develop'
+    // check it:
+    //* develop
+    //  master
+
+20) To create and switch to other branch:
+    - git checkout -b about
+
+21) To rename branch:
+    - git branch -m new_name
+
+22) To back to previouse or another commit :
+    - git checkout fb143c3 // - chose number of commit
+
+
+23) To push commit from another branch will be proposed:
+    - git push --set-upstream origin new_name
+
+24) To delete branch:
+    - git branch -D new_branch
+    //deleting any branches only from another branch
+
+
+
+
 
 
 
