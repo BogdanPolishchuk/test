@@ -95,6 +95,17 @@ User guide for Git
 20) To create and switch to other branch:
     - git checkout -b about
 
+21) To rename branch:
+    - git branch -m new_name
+
+22) To back to previouse or another commit :
+    - git checkout fb143c3 // - chose number of commit
+
+
+23) To push commit from another branch will be proposed:
+    - git push --set-upstream origin new_name
+
+
 
 
 
