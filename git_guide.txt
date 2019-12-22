@@ -105,6 +105,11 @@ User guide for Git
 23) To push commit from another branch will be proposed:
     - git push --set-upstream origin new_name
 
+24) To delete branch:
+    - git branch -D new_branch
+    //deleting any branches only from another branch
+
+
 
 
 
