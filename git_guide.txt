@@ -34,3 +34,13 @@ User guide for Git
     - git push -u origin master
 
 
+9) 8 is not working before:
+    - git clone https://github.com/BogdanPolishchuk/test.git
+
+    //and repeat 5,6,8
+
+10) If files is modified, use:
+    - git status
+
+
+
