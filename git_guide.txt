@@ -6,6 +6,7 @@ User guide for Git
 
 2) Check Git by:
     - git --version
+2.1) Create new repository in account Github without initialization!!!!
 
 3) To initialize Git in project folder:
     // move to folder and:
@@ -36,7 +37,7 @@ User guide for Git
 
 9) 8 is not working before:
     - git clone https://github.com/BogdanPolishchuk/test.git
-
+    // if repository is created with initialization!!!!
     //and repeat 5,6,8
 
 10) If files is modified, use:
